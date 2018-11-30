@@ -53,6 +53,11 @@ gcc ttbasic.c -o ttbasic.o -c
 gcc -o ttbasic ttbasic.o basic.o
 ```
 
+or short
+```shell
+gcc ttbasic.c basic.c -o ttbasic
+```
+
 or with `make`. 
 
 ## Links
