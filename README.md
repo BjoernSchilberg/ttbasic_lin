@@ -7,7 +7,7 @@ Use UART terminal.
 
 ```basic
 list
-10 FOR I=2 TO -2 STEP -1; GOSUB 100; NEXT
+10 FOR I=2 TO -2 STEP -1; GOSUB 100; NEXT I
 20 STOP
 100 REM Subroutine
 110 PRINT ABS(I); RETURN
@@ -16,7 +16,8 @@ list
 OK
 run
 ```
-```
+
+```basic
 2
 1
 0
@@ -35,11 +36,11 @@ Except 4 point to show below.
 1. The contracted form of the description is invalid.
 
 2. Force abort key
-- PALO ALTO TinyBASIC -> `Ctrl+C`
-- TOYOSHIKI TinyBASIC -> `ESC`
+   - PALO ALTO TinyBASIC -> `Ctrl+C`
+   - TOYOSHIKI TinyBASIC -> `ESC`
 
 3. SYSTEM command
-- SYSTEM return to Linux.
+   - SYSTEM return to Linux.
 
 4. Other some beyond my expectations.
 
