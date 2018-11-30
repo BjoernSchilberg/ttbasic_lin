@@ -55,6 +55,13 @@ gcc -o ttbasic ttbasic.o basic.o
 
 or with `make`. 
 
+## Links
+- https://en.wikipedia.org/wiki/Tiny_BASIC
+- https://en.wikipedia.org/wiki/Li-Chen_Wang#Palo_Alto_Tiny_BASIC
+- http://www.drdobbs.com/web-development/the-return-of-tiny-basic/184406381
+- https://vintagechips.wordpress.com/2015/12/06/%E8%B1%8A%E5%9B%9B%E5%AD%A3%E3%82%BF%E3%82%A4%E3%83%8B%E3%83%BCbasic%E7%A2%BA%E5%AE%9A%E7%89%88/
+- https://github.com/vintagechips/ttbasic_lin
+
 ## Copyright & License
 
 ```
