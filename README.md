@@ -44,6 +44,15 @@ Except 4 point to show below.
 
 4. Other some beyond my expectations.
 
+## HOWTO BUILD
+
+### Under GNU/Linux
+```shell
+gcc basic.c -o basic.o -c
+gcc ttbasic.c -o ttbasic.o -c
+gcc -o ttbasic ttbasic.o basic.o
+```
+
 
 ## Copyright & License
 
