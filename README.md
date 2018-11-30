@@ -1,6 +1,6 @@
 # TOYOSHIKI Tiny BASIC for Linux
 
-The code tested in Raspberry Pi Debian Wheezy.<br>
+The code tested in Raspberry Pi Debian Wheezy.
 Use UART terminal.
 
 ## Operation example
@@ -28,9 +28,7 @@ OK
 
 ## Difference to grammer from PALO ALTO TinyBASIC by Li-Chen Wang
 
-The grammar is the same as
-PALO ALTO TinyBASIC by Li-Chen Wang
-Except 4 point to show below.
+The grammar is the same as [PALO ALTO TinyBASIC by Li-Chen Wang](https://en.wikipedia.org/wiki/Li-Chen_Wang#Palo_Alto_Tiny_BASIC). Except 4 point to show below.
 
 1. The contracted form of the description is invalid.
 
