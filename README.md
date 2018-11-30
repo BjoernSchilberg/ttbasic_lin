@@ -44,12 +44,16 @@ The grammar is the same as [PALO ALTO TinyBASIC by Li-Chen Wang](https://en.wiki
 ## HOWTO BUILD
 
 ### Under GNU/Linux
+
+Manually 
+
 ```shell
 gcc basic.c -o basic.o -c
 gcc ttbasic.c -o ttbasic.o -c
 gcc -o ttbasic ttbasic.o basic.o
 ```
 
+or with `make`. 
 
 ## Copyright & License
 
