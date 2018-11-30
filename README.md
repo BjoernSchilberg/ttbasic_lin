@@ -1,41 +1,52 @@
-TOYOSHIKI Tiny BASIC for Linux
+# TOYOSHIKI Tiny BASIC for Linux
 
 The code tested in Raspberry Pi Debian Wheezy.<br>
 Use UART terminal.
 
-Operation example
+## Operation example
 
-&gt; list<br>
-10 FOR I=2 TO -2 STEP -1; GOSUB 100; NEXT I<br>
-20 STOP<br>
-100 REM Subroutine<br>
+```basic
+list
+10 FOR I=2 TO -2 STEP -1; GOSUB 100; NEXT
+20 STOP
+100 REM Subroutine
 110 PRINT ABS(I); RETURN
 
-OK<br>
-&gt;run<br>
-2<br>
-1<br>
-0<br>
-1<br>
+
+OK
+run
+```
+```
+2
+1
+0
+1
 2
 
-OK<br>
-&gt;
+OK
+```
 
-The grammar is the same as<br>
-PALO ALTO TinyBASIC by Li-Chen Wang<br>
+## Difference to grammer from PALO ALTO TinyBASIC by Li-Chen Wang
+
+The grammar is the same as
+PALO ALTO TinyBASIC by Li-Chen Wang
 Except 4 point to show below.
 
-(1)The contracted form of the description is invalid.
+1. The contracted form of the description is invalid.
 
-(2)Force abort key<br>
-PALO ALTO TinyBASIC -> [Ctrl]+[C]<br>
-TOYOSHIKI TinyBASIC -> [ESC]
+2. Force abort key
+- PALO ALTO TinyBASIC -> `Ctrl+C`
+- TOYOSHIKI TinyBASIC -> `ESC`
 
-(3)SYSTEM command<br>
-SYSTEM return to Linux.
+3. SYSTEM command
+- SYSTEM return to Linux.
 
-(4)Other some beyond my expectations.
+4. Other some beyond my expectations.
 
-(C)2015 Tetsuya Suzuki<br>
+
+## Copyright & License
+
+```
+(C)2015 Tetsuya Suzuki
 GNU General Public License
+```
